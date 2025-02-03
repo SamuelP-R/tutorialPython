@@ -37,22 +37,3 @@ print(helloWorld)
 a, b = 3, 4
 print(a,b)
 
-# Ejercicio 
-mystring = None
-myint = None
-myfloat = None
-
-if mystring == "hello":
-    print("String: %s"  % mystring)
-# %s es un especificador de formato que indica que el valor
-# que se insertara en esa posicion debe ser tratado como una
-#cadena (string)
-
-# el operador % se utiliza para indiacar que lo que sigue
-# (despues del %) son los valores que se insertaran en los
-# especificadores de formato dentro de la cadena
-if isinstance(myfloat, float) and myfloat == 10.0:
-    print("Float: %f" % myfloat)
-
-if isinstance(myint, int) and myint == 20:
-    print("Integer: %d" % myint)
