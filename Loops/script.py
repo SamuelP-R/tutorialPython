@@ -43,3 +43,21 @@ for x in range(10):#itera desde 0 hasta 9
     if x % 2 == 0:
         continue#salta la iteracion y pasa al siguiente numero
     print(x)
+
+
+print ("out 0,1,2,3,4 and then ir print count value reached 5")
+count = 0
+while(count<5):
+    print(count)
+    count += 1
+else:
+    print("count value reached %d" % (count))
+
+print("out 1,2,3,4")
+for i in range(1, 10):
+    if(i%5==0):
+        break
+    print(i)
+else:
+    print("this is not printed because for loop is terminated because of break but not duw to fail in condition")
+
