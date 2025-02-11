@@ -25,3 +25,5 @@ print(astring.endswith("siuuuu"))
 
 #divide la cadena
 affewword = astring.split(" ")
+
+print("pruebas")
